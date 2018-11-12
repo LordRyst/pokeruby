@@ -388,7 +388,7 @@ void PrepareBufferDataTransfer(u8 a, u8 *data, u16 size)
 
 void sub_800BF28(void)
 {
-    gUnknown_020238C4 = CreateTask(sub_800C1A8, 0);
+    gUnknown_020238C4 = CreateTask(TaskData11Switch1To5, 0);
     gTasks[gUnknown_020238C4].data[11] = 0;
     gTasks[gUnknown_020238C4].data[12] = 0;
     gTasks[gUnknown_020238C4].data[13] = 0;
@@ -429,7 +429,7 @@ void PrepareBufferDataTransferLink(u8 a, u16 size, u8 *data)
     gTasks[gUnknown_020238C4].data[14] = gTasks[gUnknown_020238C4].data[14] + r9 + 8;
 }
 
-void sub_800C1A8(u8 taskId)
+void TaskData11Switch1To5(u8 taskId)
 {
     u16 var;
 

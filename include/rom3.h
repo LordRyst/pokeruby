@@ -17,7 +17,7 @@ void sub_800BA78(void);
 void sub_800BD54(void);
 void sub_800BF28(void);
 void PrepareBufferDataTransferLink(u8 a, u16, u8 *c);
-void sub_800C1A8(u8);
+void TaskData11Switch1To5(u8);
 void sub_800C35C(void);
 void sub_800C47C(u8);
 void EmitGetAttributes(u8 a, u8 b, u8 c);
